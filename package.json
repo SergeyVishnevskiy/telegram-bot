@@ -1,0 +1,27 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyVishnevskiy/telegram-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyVishnevskiy/telegram-bot/issues"
+  },
+  "homepage": "https://github.com/SergeyVishnevskiy/telegram-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.51.0",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  }
+}
